@@ -3,6 +3,3 @@
 # @param b —
 # @param c —
 # @return
-
-
-
