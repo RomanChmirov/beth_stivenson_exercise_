@@ -9,9 +9,9 @@ while num:
     numbers.append(float(num))
     num = float(input("Введите число(для прекращения ввода введите 0): "))
 
-print(numbers)
 mid_num = sum(numbers) / len(numbers)
 
+# Распределяем числа по спискам
 for i in numbers:
 
     if i < mid_num:
@@ -21,6 +21,19 @@ for i in numbers:
     else:
         maxmid_numbers.append(str(i))
 
-print(f"Числа, которые меньше среднего: {minmid_numbers} \n"
-      f"Числа, которые равны среднему: {mid_numbers} \n"
-      f"Числа, которые больше среднего: {maxmid_numbers}")
+# Выводим списки чисел
+print(f"Числа ниже среднего: ", end='')
+for j in minmid_numbers:
+    print(j, end='; ')
+print()
+
+if mid_numbers:
+    print(f"Числа равные среднему: ", end='; ')
+    for l in mid_numbers:
+        print(l, end='; ')
+    print()
+
+print(f"Числа выше среднего: ", end='')
+for t in maxmid_numbers:
+    print(t, end='; ')
+print()
