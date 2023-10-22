@@ -6,7 +6,6 @@ while num != '':
     num = (input("Введите число(для прекращения ввода нажмите Enter): "))
 
 for i in integers:
-
     if int(i) < 0:
         print(i)
 

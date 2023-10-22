@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdb56dd-562b-4a4c-a537-0e5910c800c4" name="Changes" comment="safe exercises">
-      <change afterPath="$PROJECT_DIR$/chapter_5/exercise_122.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/exercise_123.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_5/esercise_125.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/helper_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/helper_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/kusok.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/kusok.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.helper_file">
     <configuration name="exercise_121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="beth_stevenson_exercise_" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +70,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/exercise_121.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise_124" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="beth_stevenson_exercise_" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/exercise_124.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helper_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="beth_stevenson_exercise_" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/helper_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,8 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise_121" />
+        <item itemvalue="Python.helper_file" />
         <item itemvalue="Python.kusok" />
+        <item itemvalue="Python.exercise_121" />
+        <item itemvalue="Python.exercise_124" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +243,28 @@
       <option name="project" value="LOCAL" />
       <updated>1696064960108</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="safe exercises">
+      <created>1696623720674</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696623720674</updated>
+    </task>
+    <task id="LOCAL-00014" summary="попробовать придумать что-то более вариативное">
+      <created>1696623747302</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696623747302</updated>
+    </task>
+    <task id="LOCAL-00015" summary="safe exercises">
+      <created>1696693474171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696693474172</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +284,7 @@
     </ignored-roots>
     <MESSAGE value="1. нужно сделать проверку на наличие средних чисел&#10;2. переделать вывод" />
     <MESSAGE value="Сделал толковый вывод" />
+    <MESSAGE value="попробовать придумать что-то более вариативное" />
     <MESSAGE value="safe exercises" />
     <option name="LAST_COMMIT_MESSAGE" value="safe exercises" />
   </component>
